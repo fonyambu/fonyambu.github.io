@@ -1,21 +1,19 @@
-# Site Settings
 locale: "en-US"
 title: "Frank G. Onyambu"
 title_separator: "|"
 name: "Frank G. Onyambu"
-description: "Genomics, immunogenetics, pharmacogenomics, and multiomics across East Africa and the Horn of Africa."
+description: "Genomics, immunogenetics, pharmacogenomics, and molecular diagnostics."
 url: "https://fonyambu.github.io"
 baseurl: ""
 repository: "fonyambu/fonyambu.github.io"
 
-# Site Author
 author:
   name: "Frank G. Onyambu, PhD"
   avatar: "profile.png"
-  bio: "Genomics and multiomics researcher. CEO and CSO, Continental Molecular Biosystems. Founder, CMB Genomics."
+  bio: "Associate Professor. Founder, CMB Genomics. Genomics and molecular diagnostics researcher."
   location: "Nairobi, Kenya"
-  employer: "Continental Molecular Biosystems"
-  uri: "https://continentalmolecular.bio"
+  employer: "Meru University of Science and Technology"
+  uri: "https://www.cmbgenomics.org"
   email: "frank@cmbgenomics.org"
   googlescholar: "https://scholar.google.com/citations?user=Vu8XmMIAAAAJ"
   orcid: "https://orcid.org/0000-0002-1195-8762"
@@ -23,7 +21,6 @@ author:
   github: "fonyambu"
   linkedin: "frank-onyambu-phd-23a27187"
 
-# Reading Files
 include:
   - .htaccess
   - _pages
@@ -42,7 +39,6 @@ exclude:
   - README
   - node_modules
 
-# Collections
 collections:
   publications:
     output: true
@@ -57,7 +53,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Defaults
 defaults:
   - scope:
       path: ""
