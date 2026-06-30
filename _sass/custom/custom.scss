@@ -1,0 +1,97 @@
+/* Oxford Blue theme overrides */
+$primary-color: #002147;
+$link-color: #002147;
+$masthead-link-color: #002147;
+$footer-background-color: #002147;
+
+.page__title {
+  color: #002147;
+}
+
+a {
+  color: #002147;
+  &:hover {
+    color: #001530;
+  }
+}
+
+.btn--primary {
+  background-color: #002147;
+  &:hover {
+    background-color: #001530;
+  }
+}
+
+.author__name {
+  color: #002147;
+  font-weight: 700;
+}
+
+.author__bio {
+  color: #3D4660;
+}
+
+.sidebar .author__name {
+  color: #002147;
+}
+
+.archive__item-title a {
+  color: #002147;
+}
+
+.page__meta {
+  color: #6A7186;
+}
+
+.masthead {
+  border-bottom: 2px solid #002147;
+}
+
+.greedy-nav a {
+  color: #002147;
+}
+
+.greedy-nav .visible-links a:before {
+  background: #002147;
+}
+
+nav.greedy-nav a:hover {
+  color: #001530;
+}
+
+.toc .nav__title {
+  background: #002147;
+}
+
+.nav__list .nav__items a:hover {
+  color: #002147;
+}
+
+/* Clean up typography */
+.page__content {
+  font-size: 0.95em;
+}
+
+.page__content h2 {
+  color: #002147;
+  border-bottom: 1px solid #D8DCE6;
+  padding-bottom: 0.3em;
+}
+
+.page__content h3 {
+  color: #002147;
+}
+
+/* Footer */
+.page__footer {
+  background-color: #002147;
+  color: rgba(255,255,255,0.7);
+}
+
+.page__footer a {
+  color: rgba(255,255,255,0.8);
+}
+
+.page__footer-follow .social-icons a {
+  color: rgba(255,255,255,0.8);
+}
