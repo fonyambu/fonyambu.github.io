@@ -9,56 +9,33 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **DPhil in Clinical Laboratory Sciences**, University of Oxford, UK
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Current Positions
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **CEO and Chief Scientific Officer**, Continental Molecular Biosystems, Nairobi
+* **Founder and Scientific Advisor**, Centre for Molecular Biosciences and Genomics (CMB Genomics), Nairobi
+* **Senior Lecturer**, Meru University of Science and Technology, Kenya
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Research Focus
+
+* Population genomics and whole genome sequencing in East African populations
+* Pharmacogenomics (CYP2D6, CYP2C19, CYP3A5 and CPIC gene panel)
+* Immunogenetics (HLA Class I and II, KIR haplotypes)
+* Disease cohort development across metabolic, reproductive, renal, and neuropsychiatric indications
+* Multiomics integration
+* Antimicrobial resistance surveillance and molecular diagnostics
+
+## Publications
+
+<ul>{% for post in site.publications reversed %}
+    <li>{{ post.citation }}</li>
+{% endfor %}</ul>
+
+## Talks and Presentations
+
+<ul>{% for post in site.talks reversed %}
+    <li>{{ post.title }}, {{ post.date | date: "%Y" }}, {{ post.venue }}</li>
+{% endfor %}</ul>
