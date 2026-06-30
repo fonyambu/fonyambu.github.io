@@ -56,6 +56,14 @@ Evaluating self-sampling methods for sexually transmitted infection screening to
 
 ---
 
+### Pathogen Genomics and Public Health Laboratory Strengthening
+**Role:** Collaborator | **Period:** Ongoing | **Partner:** National Public Health Laboratories Service (NPHLS)
+
+Supporting the generation of genetic data for selected pathogens, with a focus on antimicrobial resistance and emerging outbreak surveillance. Cataloguing genomic data from public health laboratory programmes and coordinating submission to global genomic databases. Working to strengthen the integration of genomic sequencing into routine public health laboratory workflows in Kenya.
+
+---
+
+
 ### Pharmacogenomics of East African Populations
 **Role:** Principal Investigator | **Period:** 2024-present
 
