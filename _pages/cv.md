@@ -47,7 +47,7 @@ redirect_from:
 * Cancer genomics and molecular diagnostics
 * Disease cohort development
 * Antimicrobial resistance surveillance
-* Biotech ecosystem and capacity building in East Africa
+* Pathogen genomics and public health laboratory strengthening
 
 ## Skills
 
@@ -62,12 +62,6 @@ redirect_from:
 * International Society for Computational Biology (ISCB)
 * Kenya Medical Laboratory Technologists and Technicians Board (KMLTTB)
 * Royal Society of Tropical Medicine and Hygiene, Grants and Awards Committee (2022-2024)
-
-## Publications
-
-<ul>{% for post in site.publications reversed %}
-    <li>{{ post.citation }}</li>
-{% endfor %}</ul>
 
 ## Talks and Presentations
 
