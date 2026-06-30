@@ -1,29 +1,36 @@
-/* Oxford Blue theme overrides */
-$primary-color: #002147;
-$link-color: #002147;
-$masthead-link-color: #002147;
-$footer-background-color: #002147;
+/* Oxford Blue theme for Frank Onyambu academic site */
 
-.page__title {
-  color: #002147;
+:root {
+  --global-bg-color: #FFFFFF;
+  --global-text-color: #111827;
+  --global-theme-color: #002147;
 }
 
+/* Links */
 a {
-  color: #002147;
-  &:hover {
-    color: #001530;
-  }
+  color: #002147 !important;
+}
+a:hover {
+  color: #001530 !important;
 }
 
-.btn--primary {
-  background-color: #002147;
-  &:hover {
-    background-color: #001530;
-  }
+/* Headings */
+.page__title,
+.archive__item-title a,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  color: #002147 !important;
 }
 
+.page__content h2 {
+  border-bottom: 1px solid #D8DCE6;
+  padding-bottom: 0.3em;
+}
+
+/* Author sidebar */
 .author__name {
-  color: #002147;
+  color: #002147 !important;
   font-weight: 700;
 }
 
@@ -31,67 +38,72 @@ a {
   color: #3D4660;
 }
 
-.sidebar .author__name {
-  color: #002147;
+.author__urls-wrapper a {
+  color: #002147 !important;
 }
 
-.archive__item-title a {
-  color: #002147;
-}
-
-.page__meta {
-  color: #6A7186;
-}
-
+/* Navigation masthead */
 .masthead {
   border-bottom: 2px solid #002147;
 }
 
 .greedy-nav a {
-  color: #002147;
+  color: #002147 !important;
 }
 
 .greedy-nav .visible-links a:before {
-  background: #002147;
+  background: #002147 !important;
 }
 
-nav.greedy-nav a:hover {
-  color: #001530;
+/* Buttons */
+.btn--primary,
+.btn--primary:visited {
+  background-color: #002147 !important;
+  border-color: #002147 !important;
 }
-
-.toc .nav__title {
-  background: #002147;
-}
-
-.nav__list .nav__items a:hover {
-  color: #002147;
-}
-
-/* Clean up typography */
-.page__content {
-  font-size: 0.95em;
-}
-
-.page__content h2 {
-  color: #002147;
-  border-bottom: 1px solid #D8DCE6;
-  padding-bottom: 0.3em;
-}
-
-.page__content h3 {
-  color: #002147;
+.btn--primary:hover {
+  background-color: #001530 !important;
 }
 
 /* Footer */
 .page__footer {
-  background-color: #002147;
-  color: rgba(255,255,255,0.7);
+  background-color: #002147 !important;
+  color: rgba(255,255,255,0.7) !important;
 }
-
 .page__footer a {
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.8) !important;
+}
+.page__footer-follow .social-icons a {
+  color: rgba(255,255,255,0.8) !important;
 }
 
-.page__footer-follow .social-icons a {
-  color: rgba(255,255,255,0.8);
+/* Meta text */
+.page__meta,
+.page__date {
+  color: #6A7186;
+}
+
+/* Table of contents */
+.toc .nav__title {
+  background: #002147;
+}
+
+/* Archive items spacing */
+.archive__item {
+  margin-bottom: 1.5em;
+}
+
+/* Clean list items in CV */
+.page__content ul li {
+  margin-bottom: 0.3em;
+}
+
+/* Publication citation styling */
+.page__content li {
+  line-height: 1.6;
+}
+
+/* Follow button */
+.btn--follow {
+  background-color: #002147 !important;
 }
