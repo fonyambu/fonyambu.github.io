@@ -15,7 +15,7 @@ author_profile: true
 
 ## Conference Attendance
 
-### Upcoming
+### Upcoming (2026-2027)
 
 | Conference | Location | Dates |
 |-----------|----------|-------|
@@ -29,7 +29,8 @@ author_profile: true
 
 | Conference | Location | Year |
 |-----------|----------|------|
-| KACP Annual Conference | Mombasa, Kenya | 2025 |
-| [Conference] | [Location] | [Year] |
+| Kenya Association of Clinical Pathologists | Mombasa, Kenya | October 2025 |
+| Africa BP Genomics Group | Mount Kenya University | 2025 |
+| Cancer Conference (Victor Oria) | Kenyatta University | 2025 |
 
 *Interested in meeting at a conference? [Get in touch](/collaborate/).*
