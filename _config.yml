@@ -1,14 +1,14 @@
 locale: "en-US"
-title: "Frank G. Onyambu"
+title: "Frank Onyambu"
 title_separator: "|"
-name: "Frank G. Onyambu"
+name: "Frank Onyambu"
 description: "Genomics, immunogenetics, pharmacogenomics, and molecular diagnostics."
 url: "https://fonyambu.github.io"
 baseurl: ""
 repository: "fonyambu/fonyambu.github.io"
 
 author:
-  name: "Frank G. Onyambu, PhD"
+  name: "Frank Onyambu"
   avatar: "profile.png"
   bio: "Associate Professor. Founder, CMB Genomics. Genomics and molecular diagnostics researcher."
   location: "Nairobi, Kenya"
